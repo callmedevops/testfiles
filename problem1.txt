@@ -1,0 +1,6 @@
+n! means n × (n − 1) × ... × 3 × 2 × 1 For example, 10! = 10 × 9 × ... × 3 × 2 × 1 = 3628800, and the sum of the digits in the number 10! is 3 + 6 + 2 + 8 + 8 + 0 + 0 = 27. Find the sum of the digits in the number 100!
+This problem is the popular example of a Brute force solution which we have studied in algorithms and complexity 
+Step 1:  import math for calculating the factorial number of the given number  I.e. 100 in this case 
+Step 2: The result of the factorial is then represented the number in a sequence of characters, so that map() can iterate over the sequence. The key point here is that a "string" can be treated as a "sequence of characters".
+Step3: Finally the grand total values can be summed to get the desirable output
+
